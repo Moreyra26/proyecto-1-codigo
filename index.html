@@ -1,0 +1,169 @@
+<!-- doctype me indica que mi documento esta utilizando html en su version 5-->
+<!DOCTYPE html>
+<!--va a tener una etiqueta de apertura <etiqueta> y una etiqueta de cierre </etiqueta> -->
+<html>
+    <!-- head es el contenido que usualmente no vemos pero es importante para el navegador-->
+    <!-- head es la informacion que necesita el navegador de busqueda -->
+<!-- un atributo: va de esta manera " valor_del_atributo"-->
+    <head lang="es">
+        <meta name="descripcion" content="HTML 5, Codigo, web, lentejitas, pagina incial de los alumnos de codigo"/>
+        <meta name="keywords" content="web, vscode, Arequipa, Paucarpata,tecnologia"/>
+        <meta charset="UTF-8"/>
+        <link rel="icon" type="image/png" href="./favicon.png"/>
+        <!-- link es para poner el logo en la pestaña del navegador -->
+        <title> Codigo, Bootcamp desarrollador de web</title>
+        <!-- sirve para mostrar el titulo en la pestaña del navegador -->
+    </head>
+    <body>
+    <!-- el contenido que si es visible usualmente en mi pagina web-->
+    <!-- exiten varios contenededores, nosotros vamos a desarrollar los contendores semanticos -->
+    <!-- contenedores semanticos -->
+    <header>
+        <!-- HEADER ES LA CABECERA DE LA PAGINA WEB -->
+        <h1> Titulo de mi Pagina Web</h1>
+        <!-- <h2> Titulo de mi Pagina Web</h2>
+        <h3> Titulo de mi Pagina Web</h3>
+        <h4> Titulo de mi Pagina Web</h4>
+        <h5> Titulo de mi Pagina Web</h5>
+        <h6> Titulo de mi Pagina Web</h6> -->
+    </header>
+    <nav>
+        <ul>
+            <!-- ul es una lista desordenada, unodened list -->
+            <li>
+                <!-- list -->
+                <!-- # usualmente hace referencia a un ID -->
+                <a href="#articulo_1">articulo 1</a>
+                <!-- href es una referencia -->
+            </li>
+            <li>
+                <!-- list -->
+                <!-- # usualmente hace referencia a un ID -->
+                <a href="#articulo_2">articulo 2</a>
+            </li>
+            <li>
+                <!-- list -->
+                <!-- # usualmente hace referencia a un ID -->
+                <a href="#articulo_3">articulo 3</a>
+            </li>
+            <li>
+                <!-- list -->
+                <!-- # usualmente hace referencia a un ID -->
+                <a href="#articulo_4">articulo 4</a>
+            </li>
+            <li>
+                <!-- list -->
+                <!-- # usualmente hace referencia a un ID -->
+                <a href="https://www.youtube.com/?gl=PE&tab=r11" target="_blank">Youtube</a>
+            </li>
+            <li>
+                <a href="02-imagenes.html" target="_self">imagenes</a>
+            </li>
+            <li>
+                <a href="03-listas.html" target="_blank" >listas</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+        <!-- section es para un lugar especifico de la pagina web -->
+    
+        <article>
+            <h2 id="articulo_1">Titulo de Articulo 1</h2>
+            <!-- ID es la identificacion del articulo -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a voluptas quasi quod voluptatem nemo quibusdam dicta iste? Sapiente, earum nemo cumque vero debitis asperiores velit eius laborum architecto voluptatem.
+            Quibusdam, praesentium sapiente! Ipsam libero sint sit pariatur hic quam quas quisquam dolorum, tempora voluptates, repellendus assumenda illum aut nemo odit quod quaerat at adipisci nam quibusdam corporis aperiam minus.
+            <br><br>
+            <!-- br es para pones un espacio en blanco -->
+            Accusamus, beatae dolore est culpa ipsum animi odit quibusdam harum amet deserunt, minus in praesentium, delectus iure ad fuga adipisci itaque! Vero beatae doloremque veniam obcaecati ad laboriosam dolores odio.
+            Tempore accusamus labore nihil in, provident adipisci voluptate nemo molestiae excepturi ex. Maiores ad voluptas provident magnam laudantium, aut rem ea atque possimus facilis blanditiis quos consequatur laborum ducimus facere?
+                <!--este comando es para generar un parrafo "lorem"  -->
+            </p>
+        </article>
+        <article>
+            <h2 id="articulo_2">Titulo de Articulo 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, facere nulla iure voluptatum soluta doloribus fugiat iusto esse. Iusto, mollitia saepe tenetur quod et odio in voluptatibus deleniti consequatur laboriosam?
+                <!--este comando es para generar un parrafo  -->
+                <pre> La etiqueta pre, sirve para mostrar el codigo 
+                    <!-- el comando pre es para que en la pagina se visualize como esta escrito en el codigo -->
+
+                    tal     cual se     escribe en mi codigo html
+                </pre>
+                <code>
+                    var x = 20:
+                </code>
+                <time> 12:19</time>
+            </p>
+        </article>
+        <article>
+            <h2 id="articulo_3">Titulo de Articulo 3</h2>
+            <p>Lorem ipsum dolor,<span style="color:red">Un texto random</span> sit amet consectetur adipisicing elit. Eaque, facere nulla iure voluptatum soluta doloribus fugiat iusto esse. Iusto, mollitia saepe tenetur quod et odio in voluptatibus deleniti consequatur laboriosam?
+                <!-- el comando "span" para elegir una parte de texto y darle propiedades especificas -->
+                <!-- "p" este comando es para generar un parrafo  -->
+                <br><u>Texto subrayado</u>
+                <!-- "u" este comando es para que el texto sea subrayado -->
+                <br>
+                <i> en cursiva</i>
+                <!-- "i" es comando es para poner en cursiva el texto-->
+                <br>
+                <b>texto en negrita</b>
+                <!-- "b" este comando es para poner en negrita -->
+
+            </p>
+        </article>
+        <article>
+            <h2 id="articulo_4">Titulo de Articulo 4</h2>
+            <p><em>un texto en cursiva
+                <!-- el comando "em" es para poner un texto en cursiva -->
+            </em>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, <strong> esto es importante!</strong>facere nulla iure voluptatum soluta doloribus fugiat iusto esse. Iusto, mollitia saepe tenetur quod et odio in voluptatibus deleniti consequatur laboriosam?
+                <!-- "strong" es el comando para que el texto se convierta en negrita -->
+                <!--este comando es para generar un parrafo  -->
+            </p>
+        </article>
+
+        </section>
+    </main>
+    <aside>
+        <!-- contenido adicional a lado izquierdo-->
+        <h3>Redes sociales</h3>
+        <ol>
+            <!-- este comando es para una lista ordena, order list -->
+            <!--  -->
+            <li>
+                <a href="https://facebook.com">Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com">instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com">twitter
+                </a>
+            </li>
+        </ol>
+        <div>
+            <!-- division en la pagina web -->
+            <h3>Parasite</h3>
+            <img src="./assetss/parasite.jpg" width="300px"/>
+        </div>
+        <footer>
+            <!-- es el pie de pagina  -->
+            <h4>informacion de contacto etc</h4>
+        </footer>
+        <span> Codgio derechos resevados</span>
+        <mark>testo resaltado</mark>
+        <!-- "mark" es para resaltar -->
+        <small> va ser contenido pequeño</small>
+        <!-- "small" es para que el texto sea pequeño -->
+        <cite>
+            [1] Garcia Marquez, el amor en los tiempos de colera,1985
+        </cite>
+        <!-- "ccite" es formato de una cita-->
+        <address> Calle Juan Velasco alvarado 248</address>
+        <!-- "address" comando para ingresar formato de una direccion-->
+    </aside>
+    </body>
+
+</html>
